@@ -15,15 +15,13 @@ This repository serves as a personal research and implementation log for **Embod
 
 ## 🚀 Current Implementation / 當前進度
 
-The project features a refactored Python module `robotic_control.py`, evolved from initial experiments in `embodied_ai.ipynb`. It establishes a foundational framework for robotic manipulation and feedback control.
+The project features a Python module `robotic_control.py`. It establishes a foundational framework for robotic manipulation and feedback control.
 
-本項目包含經過重構的 Python 模塊 `robotic_control.py`（源自早期的 `embodied_ai.ipynb` 實驗），建立了一個機器人操縱與反饋控制的基礎框架。
+本項目包含一個 Python 模塊 `robotic_control.py`，建立了一個機器人操縱與反饋控制的基礎框架。
 
 ### 📁 File Structure / 文件結構
 * `robotic_control.py`: Main implementation containing the `RoboticArm` class and `IncrementalPID` controller (PEP 8 compliant).
     * 核心實取代碼，包含符合 PEP 8 規範的機械臂類別與 PID 控制器。
-* `embodied_ai.ipynb`: Original research notes and experimental logic.
-    * 原始的研究筆記與實驗邏輯。
 
 ### 💻 Quick Start / 快速開始
 You can run the PID simulation and robotic task demo directly:
