@@ -4,7 +4,7 @@ Embodied AI Control Framework
 A modular framework for robotic manipulation and feedback control.
 Includes a RoboticArm primitive layer and an Incremental PID controller.
 
-Refactored and optimized by: Yuanzhe (Nikola) Chen, UNSW MEng EE
+Refactored and optimized by: Yuanzhe (Nikola) Chen, UNSW MEng in Electrical Engineering
 """
 
 
@@ -164,4 +164,5 @@ if __name__ == "__main__":
         # Simulate a simple system process
         control_signal = pid.calculate(current_val)
         current_val += control_signal * 0.5  # System response
+
         print(f"Step {i + 1}: Target=100, Current={current_val:.2f}, Control Signal={control_signal:.2f}")
